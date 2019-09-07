@@ -48,7 +48,8 @@
 <!--			nav-bar-info-ends-->
 			<form class="form-inline">
 				<div class="md-form my-0">
-					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<input class="form-control mr-sm-2" id="search" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-dark" id="searchBtn">search</button>
 				</div>
 			</form>
 		</div>
@@ -67,14 +68,21 @@
 				</div>
 				<div class="row">
 					<!--				single card big -->
-					<div class="card main-card-info text-white " style="width: 18rem">
+					<div class="card main-card-info text-white " id="main-card-info" style="width: 19rem">
 						<div class="card-body">
-							<h4 class="card-title">Tucson</h4>
-							<p class="card-text">Broken clouds <i class="fas fa-cloud"></i></p>
+							<div class="row">
+								<div class="col col-6 card-upper">
+									<h4 class="card-title"></h4>
+									<p class="card-text"></p>
+								</div>
+								<div class="col col-1"></div>
+								<div class="col col mr-auto  "><h1 class="temp d-inline"></h1><h2 class="d-inline">&#8451;</h2></div>
+							</div>
+
 							<hr />
 							<div class="info">
-								<h6>Winds at 5 m/s</h6>
-								<h6>Humidity levels at 57%</h6>
+								<h6 class="wind">Winds at 5 m/s</h6>
+								<h6 class="humidity">Humidity levels at 57%</h6>
 							</div>
 						</div>
 					</div>

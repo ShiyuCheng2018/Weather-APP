@@ -17,6 +17,10 @@ nav{
     box-shadow: 5px 3px 5px black;
 }
 
+.btn{
+
+}
+
 .top-nav-collapse {
     background: var(--nav-bg-color--)
 }
@@ -39,7 +43,7 @@ nav{
 
 #view {
     /* The image used */
-    background-image:url("../img/blue-sky-bright-clouds-125457.jpg");
+    /*background-image:url("../img/blue-sky-bright-clouds-125457.jpg");*/
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
