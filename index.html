@@ -19,16 +19,17 @@
 <header>
 <!--nav section-->
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar ">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top scrolling-navbar ">
 	<div class="container ">
 		<a class="navbar-brand" href="#">
 			<strong>Weather</strong>
+			<small class="ml-3 nav-brand-info d-none">Portland: Broken clouds <i class="fas fa-cloud"></i></small>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse " id="navbarSupportedContent-7">
-			<ul class="navbar-nav mr-auto ">
+			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Home
 						<span class="sr-only">(current)</span>
@@ -40,7 +41,11 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#">Linkedin</a>
 				</li>
+
 			</ul>
+<!--			nav-bar-info-->
+			<p class="text-white m-auto d-none nav-bar-info">Portland: Broken clouds  <i class="fas fa-cloud"></i></p>
+<!--			nav-bar-info-ends-->
 			<form class="form-inline">
 				<div class="md-form my-0">
 					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -49,13 +54,41 @@
 		</div>
 	</div>
 </nav>
+
 </header>
 <!--nav section ends-->
-		<div class="bg"></div>
 
+<div class="view" id="view">
+	<div class="container-fluid">
+
+		<div class="row row-main">
+			<div class="col">
+				<div class="row" style="height: 56px">
+				</div>
+				<div class="row">
+					<!--				single card big -->
+					<div class="card main-card-info text-white " style="width: 18rem">
+						<div class="card-body">
+							<h4 class="card-title">Portland</h4>
+							<p class="card-text">Broken clouds <i class="fas fa-cloud"></i></p>
+							<hr />
+							<div class="info">
+								<h6>Winds at 5 m/s</h6>
+								<h6>Humidity levels at 57%</h6>
+							</div>
+						</div>
+					</div>
+					<!--				single card big ends-->
+				</div>
+			</div>
+		</div>
+		<div class="row row-main"></div>
+		<div class="row row-main"></div>
+	</div>
+</div>
 
 <!--		jumbotron section-->
-		<div class="jumbotron">
+		<div class="jumbotron m-0">
 			<h1 class="display-4">Hello, world!</h1>
 			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 			<hr class="my-4">
@@ -64,20 +97,25 @@
 		</div>
 <!--		jumbotron section ends-->
 
-
-
-
-
-
 <!-- Optional JavaScript -->
 <script>
 	//when the windows scrolled, the nav's capacity changes
 	$(window).scroll(function () {
 		if($(document).scrollTop() > 10){
-			$("nav").addClass("top-nav-collapse")
+			$("nav").addClass("top-nav-collapse");
+			$(".nav-bar-info").addClass("d-block");
+            $(".nav-brand-info").removeClass("d-none");
 		}else{
 		    if($("nav").hasClass("top-nav-collapse")){
                 $("nav").removeClass("top-nav-collapse")
+		    }
+		    if($(".nav-bar-info").hasClass("d-block")){
+		        $(".nav-bar-info").removeClass("d-block");
+                $(".nav-bar-info").addClass("d-none");
+			}
+		    if($(".nav-brand-info").hasClass("d-none")){
+                $(".nav-brand-info").removeClass("d-none");
+                $(".nav-brand-info").addClass("d-md-none");
 		    }
 		}
     })

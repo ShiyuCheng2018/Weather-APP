@@ -1,11 +1,16 @@
 :root{
     --nav-bg-color--: rgba(76, 175, 80, 0.9) ;
+    --main-card-info-color--: rgba(94, 94, 94, 0.5)
     /*--scrolled-color--: */
 }
 
 
-body, html {
+body, html{
     height: 100%;
+}
+
+.nav-brand-info{
+    font-size: 10pt;
 }
 
 nav{
@@ -22,19 +27,35 @@ nav{
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 767px){
     .navbar:not(.top-nav-collapse){
         background: var(--nav-bg-color--) !important;
     }
+
+    .main-card-info{
+        margin-right: auto;
+        margin-left: auto ;
+    }
 }
 
-.bg {
+#view {
     /* The image used */
-    background-image:url("../img/default.jpg");
+    background-image:url("../img/blue-sky-bright-clouds-125457.jpg");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.row-main{
+    height: 33vh;
+}
+
+.main-card-info{
+    margin: 1rem;
+    background:  var(--main-card-info-color--) !important;
+    box-shadow: 5px 3px 3px black;
 }
