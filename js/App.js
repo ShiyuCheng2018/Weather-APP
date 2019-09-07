@@ -80,6 +80,8 @@ function UpdateUI(){
     console.log(bgImg);
 
     $("#view").css("background-image", bgImg);
+    $("#nav-brand-info").text(name+" : "+weather+" ");
+    $("#nav-brand-info").append(weatherIcon);
     $("#main-card-info .card-title").text(name);
     $("#main-card-info .card-text").text(weather+" ");
     $('#main-card-info i').last().remove();
@@ -87,6 +89,5 @@ function UpdateUI(){
     $("#main-card-info .temp").text(temp );
     $("#main-card-info .wind").text("Winds at "+wind+" m/s");
     $("#main-card-info .humidity").text("Humidity levels at "+humidity+"%");
-
-
+    $("#hello").text("hello "+name+"!");
 }
