@@ -12,14 +12,77 @@
 	<script src="js/App.js"></script>
 	<!--	font-awesome-->
 	<script src="https://kit.fontawesome.com/d1415ff865.js"></script>
-	<title>Quiz Time!</title>
+	<title>Weather Time!</title>
 </head>
 <body>
+
+<header>
+<!--nav section-->
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar ">
+	<div class="container ">
+		<a class="navbar-brand" href="#">
+			<strong>Weather</strong>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse " id="navbarSupportedContent-7">
+			<ul class="navbar-nav mr-auto ">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Github</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Linkedin</a>
+				</li>
+			</ul>
+			<form class="form-inline">
+				<div class="md-form my-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+				</div>
+			</form>
+		</div>
+	</div>
+</nav>
+</header>
+<!--nav section ends-->
+		<div class="bg"></div>
+
+
+<!--		jumbotron section-->
+		<div class="jumbotron">
+			<h1 class="display-4">Hello, world!</h1>
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="my-4">
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+		</div>
+<!--		jumbotron section ends-->
+
+
 
 
 
 
 <!-- Optional JavaScript -->
+<script>
+	//when the windows scrolled, the nav's capacity changes
+	$(window).scroll(function () {
+		if($(document).scrollTop() > 10){
+			$("nav").addClass("top-nav-collapse")
+		}else{
+		    if($("nav").hasClass("top-nav-collapse")){
+                $("nav").removeClass("top-nav-collapse")
+		    }
+		}
+    })
+</script>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

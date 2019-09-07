@@ -1,4 +1,40 @@
-body{
-    background: url("../img/default.jpg"), center;
+:root{
+    --nav-bg-color--: rgba(76, 175, 80, 0.9) ;
+    /*--scrolled-color--: */
+}
+
+
+body, html {
+    height: 100%;
+}
+
+nav{
+    border-bottom:1px solid black !important;
+    box-shadow: 5px 3px 5px black;
+}
+
+.top-nav-collapse {
+    background: var(--nav-bg-color--)
+}
+
+.navbar:not(.top-nav-collapse){
+    background: transparent !important;
+}
+
+
+@media (max-width: 991px){
+    .navbar:not(.top-nav-collapse){
+        background: var(--nav-bg-color--) !important;
+    }
+}
+
+.bg {
+    /* The image used */
+    background-image:url("../img/default.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
