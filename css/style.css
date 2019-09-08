@@ -41,7 +41,7 @@ nav{
     }
 }
 
-#view {
+#view, #view_search{
     /* The image used */
     /*background-image:url("../img/blue-sky-bright-clouds-125457.jpg");*/
     /* Full height */
