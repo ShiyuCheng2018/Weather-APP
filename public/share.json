@@ -35,7 +35,16 @@
               "img/sunny/sunny_2.jpg"
           ],
           "fog": ["img/fog/fog_0.jpg", "img/fog/fog_1.jpg"]
-      }
+      },
+    "search": {
+        "london": ["img/london/london_0.jpg", "img/london/london_1.jpg"],
+        "berlin": ["img/berlin/berlin_0",
+            "img/berlin/berlin_1",
+            "img/berlin/berlin_2",
+            "img/berlin/berlin_3"],
+        "shanghai": ["img/shanghai/shanghai_0",
+            "img/shanghai/shanghai_1"]
+    }
 
 
 }
