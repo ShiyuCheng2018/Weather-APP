@@ -1,12 +1,40 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
-  },
-  "exclude": [
-    "node_modules"
-  ]
+      "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true
+      },
+      "exclude": [
+        "node_modules"
+      ],
+      "weather": {
+          "rain": {
+              "little_rain": ["img/rain/little_rain/little_rain_0.jpg",
+                            "img/rain/little_rain/little_rain_1.jpg"],
+              "storm": ["img/rain/storm/storm_0.jpg",
+                        "img/rain/storm/storm_1.jpg",
+                        "img/rain/storm/storm_2.jpg"
+                       ]
+          },
+          "snow": ["img/snow/snow_0.jpg",
+              "img/snow/snow_1.jpg",
+              "img/snow/snow_2.jpg",
+              "img/snow/snow_3.jpg",
+              "img/snow/snow_4.jpg",
+              "img/snow/snow_5.jpg",
+              "img/snow/snow_6.jpg",
+              "img/snow/snow_7.jpg"
+          ],
+          "cloudy": ["img/cloudy/cloudy_0.jpg",
+              "img/cloudy/cloudy_1.jpg",
+              "img/cloudy/cloudy_2.jpg",
+              "img/cloudy/cloudy_3.jpg"
+          ],
+          "sunny": ["img/sunny/sunny_0.jpg",
+              "img/sunny/sunny_1.jpg",
+              "img/sunny/sunny_2.jpg"
+          ]
+      }
 
 
 }

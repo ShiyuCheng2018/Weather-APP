@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a735b93-24c5-439d-982c-a0d90d227670" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/clear_sky.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/heavy_cloud.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/heavy_rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/little_rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/moderate_snow.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudy/bad-weather-clouds-cloudy-355441.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudy/beautiful-flowers-clouds-cloudy-1002694.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudy/clouds-cloudy-dark-846980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudy/heavy_cloud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rain/little_rain/jessica-knowlden-uUySeXRQqA4-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rain/little_rain/little_rain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rain/storm/clouds-dark-clouds-lightning-9466.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rain/storm/cristi-goia-JgDUVGAXsso-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rain/storm/heavy_rain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/alice-donovan-rouse-6hWNyGeQXRk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/chandler-cruttenden-w8hWTFpGtpY-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/freestocks-org-5867BKGyCu4-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/mike-stezycki-rGoejmMF1Uk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/moderate_snow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/natasha-vasiljeva-pRQ_G-un4xs-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/osman-rana-GXEZuWo5m4I-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow/sora-sagano-hOA6B_gseD4-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sunny/carmine-savarese-KVVpx8M10OY-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sunny/clear_sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sunny/kumiko-shimizu-lNxMcE8mvIM-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/share.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/share.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="15" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -33,19 +53,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/App.js">
+        <entry file="file://$PROJECT_DIR$/public/share.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="91" column="13" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="13" />
+            <state relative-caret-position="555">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+            <state relative-caret-position="301">
+              <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -56,6 +76,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="package.json" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -73,7 +95,9 @@
         <option value="$PROJECT_DIR$/READme.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/public/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/share.json" />
         <option value="$PROJECT_DIR$/js/App.js" />
       </list>
     </option>
@@ -110,7 +134,18 @@
             <path>
               <item name="Weather-App" type="b2602c69:ProjectViewProjectNode" />
               <item name="Weather-App" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Weather-App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather-App" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Weather-App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather-App" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,7 +163,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JSON" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,15 +187,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567788808305</updated>
-      <workItem from="1567788810278" duration="27414000" />
+      <workItem from="1567788810278" duration="30782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27414000" />
+    <option name="totallyTimeSpent" value="30782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -213,28 +249,42 @@
     <entry file="file://$PROJECT_DIR$/img/clear_sky.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/public/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+        <state relative-caret-position="21">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/App.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="13" />
+        <state relative-caret-position="166">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/share.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,11 @@
 
 $(document).ready(function() {
+
+    $.getJSON("./public/share.json", function (data) {
+        console.log(data.weather);
+        share = data.weather;
+    });
+
     fetchInfo();
     $("#searchBtn").on("click", function () {
         event.preventDefault();
@@ -11,6 +17,7 @@ $(document).ready(function() {
     })
 });
 
+let share;
 let defultCity = "Tucson";
 let name;
 let temp;
@@ -62,22 +69,33 @@ function UpdateUI(){
         }
     }
     function getBg(weather){
+        let clear = share.sunny;
+        let rain = share.rain.little_rain;
+        let storm = share.rain.storm;
+        let clouds = share.cloudy;
+        let index;
+
         switch (weather.toUpperCase()) {
             case "CLEAR":
-                return "url(\"img/clear_sky.jpg\")";
+                index = Math.floor(Math.random() * clear.length);
+                return "url("+clear[index]+")";
             case "RAIN":
-                return "url(\"img/little_rain.jpg\")";
+                index = Math.floor(Math.random() * rain.length);
+                return "url("+rain[index]+")";
             case "STORM":
-                return "url(\"/img/heavy_rain.jpg\")";
+                index = Math.floor(Math.random() * storm.length);
+                return "url("+storm[index]+")";
             case "CLOUDS":
-                return "url(\"img/heavy_cloud.jpg\")";
+                index = Math.floor(Math.random() * clouds.length);
+                return "url("+clouds[index]+")";
         }
+
     }
 
     console.log(name, temp, weather, weatherMain, humidity, wind);
     let weatherIcon = getIcon(weatherMain);
+
     let bgImg = getBg(weatherMain);
-    console.log(bgImg);
 
     $("#view").css("background-image", bgImg);
     $("#nav-brand-info").text(name+" : "+weather+" ");
