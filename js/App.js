@@ -65,6 +65,8 @@ function UpdateUI(){
                 return "<i class=\"fas fa-cloud-showers-heavy fa-lg\"></i>";
             case "CLOUDS":
                 return "<i class=\"fas fa-cloud fa-lg\"></i>";
+            case "FOG":
+                return "<i class=\"fas fa-smog fa-lg\"></i>"
 
         }
     }
@@ -73,6 +75,7 @@ function UpdateUI(){
         let rain = share.rain.little_rain;
         let storm = share.rain.storm;
         let clouds = share.cloudy;
+        let fog = share.fog;
         let index;
 
         switch (weather.toUpperCase()) {
@@ -88,6 +91,9 @@ function UpdateUI(){
             case "CLOUDS":
                 index = Math.floor(Math.random() * clouds.length);
                 return "url("+clouds[index]+")";
+            case "FOG":
+                index = Math.floor(Math.random() * fog.length);
+                return "url("+fog[index]+")";
         }
 
     }

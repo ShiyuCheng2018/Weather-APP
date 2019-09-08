@@ -33,7 +33,8 @@
           "sunny": ["img/sunny/sunny_0.jpg",
               "img/sunny/sunny_1.jpg",
               "img/sunny/sunny_2.jpg"
-          ]
+          ],
+          "fog": ["img/fog/fog_0.jpg", "img/fog/fog_1.jpg"]
       }
 
 

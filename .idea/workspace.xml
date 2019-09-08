@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a735b93-24c5-439d-982c-a0d90d227670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudy/bad-weather-clouds-cloudy-355441.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudy/beautiful-flowers-clouds-cloudy-1002694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudy/clouds-cloudy-dark-846980.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudy/heavy_cloud.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rain/little_rain/jessica-knowlden-uUySeXRQqA4-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rain/little_rain/little_rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rain/storm/clouds-dark-clouds-lightning-9466.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rain/storm/cristi-goia-JgDUVGAXsso-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rain/storm/heavy_rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/alice-donovan-rouse-6hWNyGeQXRk-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/chandler-cruttenden-w8hWTFpGtpY-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/freestocks-org-5867BKGyCu4-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/mike-stezycki-rGoejmMF1Uk-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/moderate_snow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/natasha-vasiljeva-pRQ_G-un4xs-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/osman-rana-GXEZuWo5m4I-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/snow/sora-sagano-hOA6B_gseD4-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sunny/carmine-savarese-KVVpx8M10OY-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sunny/clear_sky.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sunny/kumiko-shimizu-lNxMcE8mvIM-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/share.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/share.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
+            <state relative-caret-position="323">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -187,23 +164,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567788808305</updated>
-      <workItem from="1567788810278" duration="30782000" />
+      <workItem from="1567788810278" duration="31298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30782000" />
+    <option name="totallyTimeSpent" value="31298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.19887955" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.19887955" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -283,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
+        <state relative-caret-position="323">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
